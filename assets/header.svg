@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="200" viewBox="0 0 1100 200" role="img" aria-labelledby="title desc">
+  <title id="title">陈澄 · 数据分析</title>
+  <desc id="desc">从业务问题出发，用数据支持决策。右侧为装饰性折线，无数据含义。</desc>
+  <rect width="1100" height="200" rx="14" fill="#122738"/>
+  <path d="M710 45H1040M710 90H1040M710 135H1040M710 180H1040" stroke="#234153" stroke-width="1"/>
+  <path d="M730 140L793 119L856 132L919 78L1005 52" fill="none" stroke="#55c7bb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1005" cy="52" r="6" fill="#55c7bb"/>
+  <rect x="42" y="39" width="5" height="123" rx="2" fill="#55c7bb"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="70" y="65" font-size="15" fill="#82d9cf" letter-spacing="3">CHEN CHENG / DATA ANALYTICS</text>
+    <text x="68" y="118" font-size="34" font-weight="600" fill="#ffffff">从业务问题出发</text>
+    <text x="70" y="154" font-size="21" fill="#bdccd7">用数据支持决策</text>
+  </g>
+</svg>
