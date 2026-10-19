@@ -1,117 +1,119 @@
-<img src="assets/header-bold.svg" width="100%" alt="陈澄 CHEN CHENG · 数据分析实习 · 把数据理清，把问题看透" />
+<p align="center"><strong>English</strong> &nbsp; | &nbsp; <a href="https://github.com/chengchenwork/chengchenwork/blob/main/README.zh-CN.md">中文</a> &nbsp; | &nbsp; <a href="https://chengchenwork.github.io/data-analysis-portfolio/index.en.html">Interactive portfolio ↗</a></p>
+
+<img src="assets/header-bold-en.svg" width="100%" alt="Cheng Chen · Data analyst · Turning data into clear decisions" />
 
 <p align="center">
-<a href="mailto:cc1053688674@gmail.com"><img src="assets/contact-email-bold.svg" height="36" alt="邮件联系" /></a>
+<a href="mailto:cc1053688674@gmail.com"><img src="assets/contact-email-bold.svg" height="36" alt="Email me" /></a>
 <a href="https://www.linkedin.com/in/cheng-chen-work"><img src="assets/contact-linkedin-bold.svg" height="36" alt="LinkedIn" /></a>
-<a href="#精选项目"><img src="assets/contact-projects-bold.svg" height="36" alt="查看项目" /></a>
+<a href="#selected-projects"><img src="assets/contact-projects-bold.svg" height="36" alt="Explore projects" /></a>
 </p>
 
-### 你好，我是陈澄。用 SQL、Python 和 BI，把业务问题拆开看。
+### Hi, I'm Cheng Chen. I use SQL, Python and BI to understand business problems.
 
-墨尔本大学 **数据科学硕士在读**，正在寻找 **数据分析实习**。关注电商经营、用户行为与业务效率，也喜欢把重复的数据工作变成可复用的工具。
+I'm pursuing a **Master of Data Science at the University of Melbourne** and seeking **data analyst internships**. My interests include e-commerce performance, user behaviour and business efficiency. I also enjoy turning repetitive data tasks into reusable tools.
 
-<img src="assets/companies-bold.svg" width="100%" alt="曾在 Apple、得物、SHEIN、贝卡尔特参与数据分析或运营工作" />
+<img src="assets/companies-bold-en.svg" width="100%" alt="Data analysis and operations experience at Apple, DEWU, SHEIN and Bekaert" />
 
-<p align="center"><a href="#精选项目">精选项目</a> &nbsp; / &nbsp; <a href="#实习经历">实习经历</a> &nbsp; / &nbsp; <a href="#工具与方法">工具与方法</a> &nbsp; / &nbsp; <a href="#教育背景">教育背景</a></p>
+<p align="center"><a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp; <a href="#internship-experience">Experience</a> &nbsp; / &nbsp; <a href="#tools-and-methods">Tools and methods</a> &nbsp; / &nbsp; <a href="#education">Education</a></p>
 
-## 精选项目
+## Selected projects
 
-<img src="assets/project-fuel-bold.svg" width="100%" alt="澳洲燃油价格与公众舆情分析：多源整合、时间对齐、情感分析" />
+**[Explore my interactive portfolio ↗](https://chengchenwork.github.io/data-analysis-portfolio/index.en.html)** — Operating diagnostics, channel budget planning and campus space analytics. English case studies explain the business questions and my contribution. Business demos use synthetic data and have Chinese interfaces. The full campus dashboard is in English.
 
-### 澳洲燃油价格与公众舆情分析
+<img src="assets/project-fuel-bold-en.svg" width="100%" alt="Australian fuel prices and public sentiment: data integration, time alignment and sentiment analysis" />
 
-**从价格走势到公众反应。** 将官方燃油价格与社交媒体讨论按时间对齐，支持情感、主题和讨论热度的对照分析。
+### Australian fuel prices and public sentiment
 
-`Python` `Elasticsearch` `VADER` `多源数据整合`
+**From price trends to public reactions.** Aligned official fuel prices with social media discussions over time to compare sentiment, topics and discussion activity.
+
+`Python` `Elasticsearch` `VADER` `Data integration`
 
 <details>
-<summary><strong>查看我的贡献与分析流程</strong></summary>
+<summary><strong>My contribution and analysis workflow</strong></summary>
 
-- **统一检索：** 设计 Elasticsearch 索引、字段映射、文档 ID 规则和聚合查询，支持 BlueSky、GDELT 与官方燃油价格数据的统一检索。
-- **时间对齐：** 处理并验证官方价格数据，按时间维度对齐周度价格与社交媒体讨论。
-- **文本分析：** 基于 VADER 与主题标签开展情感评分、主题识别和热度统计，为趋势比较提供数据与分析结果。
+- **Unified search:** Designed Elasticsearch indices, field mappings, document ID rules and aggregation queries for unified retrieval across Bluesky, GDELT and official fuel price data.
+- **Time alignment:** Processed and validated official price data, aligning weekly prices with social media discussions.
+- **Text analysis:** Used VADER and topic tags for sentiment scoring, topic identification and activity summaries, providing inputs for trend comparisons.
 
 </details>
 
 <br/>
 
-<img src="assets/project-credit-bold.svg" width="100%" alt="Lending Club 信贷违约预测：125,000 条贷款样本，防止泄露与跨时间验证" />
+<img src="assets/project-credit-bold-en.svg" width="100%" alt="Lending Club default prediction: 125,000 loans, leakage control and validation over time" />
 
-### Lending Club 信贷违约预测与特征工程评估
+### Lending Club default prediction and feature engineering evaluation
 
-**复杂特征能否改善未来周期的预测？** 基于 **125,000 条贷款样本**，对比特征工程方案与模型，重视数据泄露防控和跨时间验证。
+**Do more complex features improve predictions in future periods?** Compared feature engineering approaches and models using **125,000 loan records**, with an emphasis on preventing data leakage and validating across time.
 
 `Python` `Pandas` `LightGBM` `scikit-learn` `Bootstrap`
 
 <details>
-<summary><strong>查看数据处理、建模与评估</strong></summary>
+<summary><strong>Data preparation, modelling and evaluation</strong></summary>
 
-- **数据处理：** 剔除贷后泄露字段，完成 CPI 通胀调整、缺失值填补与类别变量编码。
-- **特征与模型：** 构建金融压力、还款能力、信用历史、宏观经济和时间标准化特征，对比 Logistic Regression、LightGBM 和 NODE。
-- **验证方式：** 采用 Expanding-window validation 与 Bootstrap，对比 AUC、F1、Precision 和 Recall；项目评估显示 LightGBM 在该数据上的表现更稳定。
+- **Data preparation:** Removed post-origination leakage fields, adjusted for CPI inflation, imputed missing values and encoded categorical variables.
+- **Features and models:** Created features for financial stress, repayment capacity, credit history, macroeconomic conditions and time normalisation. Compared Logistic Regression, LightGBM and NODE.
+- **Evaluation:** Used expanding-window validation and bootstrap resampling to compare AUC, F1, precision and recall. LightGBM showed more stable performance in this project's evaluation.
 
 </details>
 
+## Internship experience
 
-## 实习经历
-
-<img src="assets/experience-apple.svg" width="100%" alt="Apple｜数据分析 · 大中华区销售部｜2026.06–09  /  2026.01–04｜经营诊断  ·  门店分析  ·  预算规划" />
+<img src="assets/experience-apple-en.svg" width="100%" alt="Apple · Data analysis · Greater China Sales · Jun–Sep 2026 / Jan–Apr 2026" />
 
 <details>
-<summary><strong>Apple · 数据分析｜查看贡献</strong></summary>
+<summary><strong>Apple · Data analysis | My contribution</strong></summary>
 
-**数据分析 · 大中华区销售部**  
-2026.06–2026.09 / 2026.01–2026.04
+**Data analysis · Greater China Sales**  
+Jun–Sep 2026 / Jan–Apr 2026
 
-<p><strong>线上渠道｜经营诊断与预算规划</strong><br/>整合销售、财务、广告与库存数据，统一日期和商品口径；从需求、转化、利润、库存与竞争维度开展诊断，并通过模型解释与时间序列验证支持判断。</p>
-<p>分析 MDF 计划与执行偏差，开发 Excel 校验、报表及预算规划工具，支持业务人员审核建议后执行。</p>
-<p><strong>多门店渠道｜门店分析与流程自动化</strong><br/>基于人流与转化率开展 K-means 聚类和指标下钻，使用 Tableau 分析销售变化；将返利计算整理为标准化流程，并通过 LLM 识图把 PDF 产品信息转为结构化 Excel 数据。</p>
-<p><code>经营分析</code> <code>Tableau</code> <code>预测验证</code> <code>自动化</code></p>
+<p><strong>Online channels | Operating diagnostics and budget planning</strong><br/>Integrated sales, finance, advertising and inventory data, aligning date and product definitions. Analysed demand, conversion, profit, inventory and competition, using model interpretation and time-series validation to support judgement.</p>
+<p>Analysed gaps between MDF plans and execution. Developed Excel validation, reporting and budget planning tools to support business users in reviewing recommendations before taking action.</p>
+<p><strong>Multi-store channels | Store analysis and process automation</strong><br/>Applied K-means clustering and metric drill-downs to footfall and conversion data, and used Tableau to analyse sales changes. Standardised rebate calculations and used LLM image recognition to convert PDF product information into structured Excel data.</p>
+<p><code>Operating analytics</code> <code>Tableau</code> <code>Forecast validation</code> <code>Automation</code></p>
 
 </details>
 
-<img src="assets/experience-dewu.svg" width="100%" alt="得物｜商家运营 · 国际事业部｜2025.12–2026.01｜GMV 分析  ·  目标跟踪  ·  业务复盘" />
+<img src="assets/experience-dewu-en.svg" width="100%" alt="DEWU · Merchant operations · International Business · Dec 2025–Jan 2026" />
 
 <details>
-<summary><strong>得物 · 商家运营｜查看贡献</strong></summary>
+<summary><strong>DEWU · Merchant operations | My contribution</strong></summary>
 
-**商家运营 · 国际事业部**  
-2025.12–2026.01
+**Merchant operations · International Business**  
+Dec 2025–Jan 2026
 
-<p>支持商家运营流程，跟踪 GMV 与目标完成进度，针对未达标情况开展原因分析和专题复盘。</p>
-<p><code>GMV 分析</code> <code>目标跟踪</code> <code>业务复盘</code></p>
+<p>Supported merchant operations, tracked GMV and progress against targets, and investigated shortfalls through root-cause analysis and focused business reviews.</p>
+<p><code>GMV analysis</code> <code>Target tracking</code> <code>Business reviews</code></p>
 
 </details>
 
-<img src="assets/experience-shein.svg" width="100%" alt="SHEIN｜数据分析 · 研发效能架构部｜2024.10–2025.02｜SQL 取数  ·  用户行为  ·  埋点校验" />
+<img src="assets/experience-shein-en.svg" width="100%" alt="SHEIN · Data analysis · R&amp;D Efficiency Architecture · Oct 2024–Feb 2025" />
 
 <details>
-<summary><strong>SHEIN · 数据分析｜查看贡献</strong></summary>
+<summary><strong>SHEIN · Data analysis | My contribution</strong></summary>
 
-**数据分析 · 研发效能架构部**  
-2024.10–2025.02
+**Data analysis · R&amp;D Efficiency Architecture**  
+Oct 2024–Feb 2025
 
-<p>使用 SQL 支持跨部门取数，搭建平台使用情况看板，分析用户信息、使用时长和频率。</p>
-<p>校验 FCP、LCP、UV、PV 等埋点指标，排查异常；协同产品团队完善分析筛选、关键指标和导出能力，支持自助分析。</p>
-<p><code>SQL</code> <code>用户行为</code> <code>埋点校验</code> <code>BI 看板</code></p>
+<p>Used SQL to support cross-team data requests and built platform usage dashboards covering user information, usage duration and frequency.</p>
+<p>Validated instrumentation for FCP, LCP, UV and PV and investigated anomalies. Worked with the product team to improve analytical filters, key metrics and export functionality for self-service analysis.</p>
+<p><code>SQL</code> <code>User behaviour</code> <code>Instrumentation validation</code> <code>BI dashboards</code></p>
 
 </details>
 
-<img src="assets/experience-bekaert.svg" width="100%" alt="贝卡尔特｜数据分析 · 实验室｜2023.07–08｜数据清洗  ·  Power BI  ·  Web 日报" />
+<img src="assets/experience-bekaert-en.svg" width="100%" alt="Bekaert · Data analysis · Laboratory · Jul–Aug 2023" />
 
 <details>
-<summary><strong>贝卡尔特 · 数据分析｜查看贡献</strong></summary>
+<summary><strong>Bekaert · Data analysis | My contribution</strong></summary>
 
-**数据分析 · 实验室**  
-2023.07–2023.08
+**Data analysis · Laboratory**  
+Jul–Aug 2023
 
-<p>使用 Microsoft Access 清洗设备数据，通过 Power BI 排查运行异常；使用 HTML、Python、CSS 开发 Web 日报系统，支持生产监控与信息共享。</p>
-<p><code>数据清洗</code> <code>Power BI</code> <code>异常分析</code></p>
+<p>Cleaned equipment data using Microsoft Access and investigated operational anomalies with Power BI. Developed a web-based daily reporting system with HTML, Python and CSS to support production monitoring and information sharing.</p>
+<p><code>Data cleaning</code> <code>Power BI</code> <code>Anomaly analysis</code></p>
 
 </details>
 
-## 工具与方法
-
+## Tools and methods
 
 <p>
 <img src="assets/tool-python.svg" height="36" alt="Python" />
@@ -124,21 +126,20 @@
 <img src="assets/tool-elastic.svg" height="36" alt="Elasticsearch" />
 </p>
 
-| 数据处理与呈现 | 分析建模与验证 |
+| Data preparation and presentation | Modelling and validation |
 | :--- | :--- |
-| SQL、Python（Pandas / NumPy）、Excel | 回归、聚类、特征工程 |
-| Tableau、Power BI、Elasticsearch | LightGBM、CatBoost / SHAP、scikit-learn |
-| 指标体系、经营分析、用户行为分析 | 时间序列交叉验证、Expanding-window validation、Bootstrap |
+| SQL, Python (Pandas / NumPy), Excel | Regression, clustering, feature engineering |
+| Tableau, Power BI, Elasticsearch | LightGBM, CatBoost / SHAP, scikit-learn |
+| Metric frameworks, operating analytics, user behaviour analysis | Time-series cross-validation, expanding-window validation, bootstrap |
 
-## 教育背景
+## Education
 
-🎓 **墨尔本大学｜数据科学硕士（在读）**  
-2025.03–2026.12
+🎓 **University of Melbourne | Master of Data Science (in progress)**  
+Mar 2025–Dec 2026
 
-🎓 **曼尼托巴大学｜数学与经济学双学士**  
-2019.01–2024.06
+🎓 **University of Manitoba | Dual bachelor's degrees in Mathematics and Economics**  
+Jan 2019–Jun 2024
 
+<a href="mailto:cc1053688674@gmail.com"><img src="assets/footer-bold-en.svg" width="100%" alt="Contact Cheng Chen · Data analyst internships · cc1053688674@gmail.com" /></a>
 
-<a href="mailto:cc1053688674@gmail.com"><img src="assets/footer-bold.svg" width="100%" alt="联系陈澄：cc1053688674@gmail.com · 数据分析实习" /></a>
-
-<p align="center"><sub>电商经营 · 用户行为 · 业务效率 &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/cheng-chen-work">LinkedIn ↗</a></sub></p>
+<p align="center"><sub>E-commerce performance · User behaviour · Business efficiency &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/cheng-chen-work">LinkedIn ↗</a></sub></p>
